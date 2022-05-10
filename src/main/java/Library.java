@@ -28,7 +28,14 @@ public class Library {
         }
     }
 
+    public Book removeBookFromLibrary(Book book){
+        return this.libraryBooks.remove(libraryBooks.indexOf(book));
+
+    }
+
     public boolean hasLibraryReachedCapacity(){
         return countNumberOfBooks() >= this.capacity;
     }
+
+
 }

@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Book {
     private String title;
     private String author;
@@ -20,4 +22,5 @@ public class Book {
     public String getGenre() {
         return genre;
     }
+
 }

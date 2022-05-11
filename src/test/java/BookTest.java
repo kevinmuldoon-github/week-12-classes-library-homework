@@ -8,12 +8,14 @@ public class BookTest {
     private Book book1;
     private Book book2;
     private Book book3;
+    private Book book4;
 
     @Before
     public void before(){
         book1 = new Book("The Bourne Identity", "Robert Ludlum", "Spy Fiction");
         book2 = new Book("Harry Potter and the Philosopher's Stone", "J. K. Rowling", "Children's Fiction");
         book3 = new Book("English Dictionary", "Collins", "Non-Fiction");
+        book4 = new Book("Charlie and the Chocolate Factory", "Roald Dahl", "Children's Fiction");
     }
 
     @Test
